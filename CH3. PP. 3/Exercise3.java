@@ -1,3 +1,4 @@
+
 /**
  * Write a program that reads three strings from the keyboard. Although the strings are in no particular order, display the string 
  * that would be second if they were arranged lexicographically.
@@ -26,13 +27,13 @@ public class Exercise3
       if (max.compareTo(y) < 0)
        max = y;
       if (max.compareTo(z) < 0)
-       max = z;
+      max = z;
       if (!x.equals(min) && !x.equals(max))
-       middle = x;
+      middle = x;
       if (!y.equals(min) && !y.equals(max))
-       middle = y;
+      middle = y;
       if (!z.equals(min) && !z.equals(max))
-       middle = z;
+      middle = z;
       
       System.out.println(middle);
     }
